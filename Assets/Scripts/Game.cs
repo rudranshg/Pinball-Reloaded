@@ -8,7 +8,7 @@ public class Game : MonoBehaviour {
 
 	public bool isActive = false;
 	public bool ballReady = true;
-	public int ballCount = 3;
+	public int ballCount = 1;
 	public Text ballCountText;
 
 	[Header("Game UI")]
@@ -17,7 +17,7 @@ public class Game : MonoBehaviour {
 	public RectTransform endPanel;
 
 	[Header("Ball")]
-	public int ballStartCount = 3;
+	public int ballStartCount = 1;
 	public GameObject ballDisplay;
 	public Ball ballPrefab;
 	public Transform ballSpawnPoint;

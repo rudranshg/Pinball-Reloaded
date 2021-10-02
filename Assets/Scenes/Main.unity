@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43738747, g: 0.48518133, b: 0.56545454, a: 1}
+  m_IndirectSpecularColor: {r: 0.4373873, g: 0.48518085, b: 0.565454, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1095,7 +1095,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &427843866
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2293,7 +2293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4213520197908069053, guid: ab96e79eab9a6d44bbdec6eb81e24a36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.99
+      value: -2.03
       objectReference: {fileID: 0}
     - target: {fileID: 4213520197908069053, guid: ab96e79eab9a6d44bbdec6eb81e24a36, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2301,7 +2301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4213520197908069053, guid: ab96e79eab9a6d44bbdec6eb81e24a36, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.8
+      value: -5.02
       objectReference: {fileID: 0}
     - target: {fileID: 4213520197908069053, guid: ab96e79eab9a6d44bbdec6eb81e24a36, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2471,7 +2471,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777330287}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.003, y: 0.25, z: -6.486}
+  m_LocalPosition: {x: -0.18, y: -4.46, z: -4.33}
   m_LocalScale: {x: 1.89, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2964,7 +2964,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 1
   m_colorMode: 0
   m_fontColorGradient:
@@ -3509,13 +3509,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087795621}
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: -0.27059805, w: 0.6532815}
+  m_LocalRotation: {x: -0.30360317, y: 0.7329629, z: -0.2329629, w: 0.5624223}
   m_LocalPosition: {x: -0.481, y: -4, z: -4.4}
   m_LocalScale: {x: 0.1, y: 0.5, z: 0.73}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 105, z: -45}
 --- !u!54 &1087795626
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3544,7 +3544,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.1, z: -0.5}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.8460001, y: -3.9646447, z: -4.435355}
+  m_ConnectedAnchor: {x: -0.8427136, y: -3.9646447, z: -4.3396816}
   m_UseSpring: 1
   m_Spring:
     spring: 50000
@@ -3965,7 +3965,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1146771417
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4506,7 +4506,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1391683656
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5583,7 +5583,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1919381354
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5880,6 +5880,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 23511950969773314, guid: 6049d6fe37fe33947ad553894e0338cd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 15c5b21d1eba8644c8b6679b0196c437, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6049d6fe37fe33947ad553894e0338cd, type: 3}
 --- !u!1 &2044475742
@@ -6086,7 +6090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.2598734, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6299,13 +6303,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117378071}
-  m_LocalRotation: {x: -0.27059805, y: 0.6532815, z: -0.27059805, w: 0.6532815}
+  m_LocalRotation: {x: -0.23296289, y: 0.5624222, z: -0.3036032, w: 0.73296297}
   m_LocalPosition: {x: 0.526, y: -4, z: -4.4}
   m_LocalScale: {x: 0.1, y: 0.5, z: 0.73}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: -45}
+  m_LocalEulerAnglesHint: {x: 0, y: 75, z: -45}
 --- !u!54 &2117378076
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6334,7 +6338,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.1, z: 0.5}
   m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.89100003, y: -3.9646447, z: -4.4353557}
+  m_ConnectedAnchor: {x: 0.8877136, y: -3.9646447, z: -4.3396816}
   m_UseSpring: 1
   m_Spring:
     spring: 50000
@@ -6643,7 +6647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4213520197908069053, guid: ab96e79eab9a6d44bbdec6eb81e24a36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.85
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4213520197908069053, guid: ab96e79eab9a6d44bbdec6eb81e24a36, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6651,7 +6655,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4213520197908069053, guid: ab96e79eab9a6d44bbdec6eb81e24a36, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.7
+      value: 1.22
       objectReference: {fileID: 0}
     - target: {fileID: 4213520197908069053, guid: ab96e79eab9a6d44bbdec6eb81e24a36, type: 3}
       propertyPath: m_LocalRotation.w
