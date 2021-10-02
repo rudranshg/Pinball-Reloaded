@@ -16,7 +16,7 @@ public class GameScore : MonoBehaviour {
 	/// <summary>
 	/// Add score to the current score
 	/// </summary>
-	/// <param name="score">Amount</param>
+	/// <param //name="score">Amount</param>
 	public void AddScore(int score) {
 		this.score += score;
 		UpdateScore();
